@@ -1,6 +1,6 @@
 {
   "name": "do-times",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Do something n times",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,11 @@
     "url": "git+https://github.com/zentus/do-times.git"
   },
   "keywords": [
-		"do-times",
-		"do",
-		"something",
+    "do-times",
+    "do",
+    "something",
     "n",
-		"times"
+    "times"
   ],
   "author": "Zentus",
   "license": "MIT",

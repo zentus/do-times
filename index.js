@@ -1,3 +1,9 @@
+const loop = (times, callback, ...args) => {
+	for (let index = 0; index < times; index++) {
+		callback(index + 1, index, ...args);
+	}
+}
+
 const doTimes = (times, callback, constructor = false) => {
 
 	if (typeof times !== 'number') {
@@ -12,17 +18,11 @@ const doTimes = (times, callback, constructor = false) => {
 		throw 'do-times expected the third argument to be a boolean'
 	}
 
-	const doThis = (t, c, ...args) => {
-		for (let i = 0; i < t; i++) {
-			c(i+1, i, ...args);
-		}
-	}
-
 	if (!constructor) {
-		doThis(times, callback)
+		loop(times, callback)
 	}
 
-	return (...args) => doThis(times, callback, ...args)
+	return (...args) => loop(times, callback, ...args)
 }
 
 module.exports = doTimes

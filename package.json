@@ -1,21 +1,21 @@
 {
   "name": "do-times",
   "version": "1.0.0",
-  "description": "Do something X times",
+  "description": "Do something n times",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Note to self: add tests\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zentus/do-times.git"
   },
   "keywords": [
-    "dotimes",
-    "do-times",
-    "do",
-    "x",
-    "times"
+		"do-times",
+		"do",
+		"something",
+    "n",
+		"times"
   ],
   "author": "Zentus",
   "license": "MIT",

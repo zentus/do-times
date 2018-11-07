@@ -7,8 +7,7 @@
     "test": "echo \"Note to self: add tests\""
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zentus/do-times.git"
+    "url": "https://github.com/zentus/do-times.git"
   },
   "keywords": [
     "do-times",

@@ -1,6 +1,6 @@
 {
   "name": "do-times",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Do something n times",
   "main": "index.js",
   "scripts": {

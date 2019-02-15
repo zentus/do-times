@@ -40,8 +40,8 @@ emojiTimes(4, '👏')
 ```javascript
 const listUpToFourAnimals = animals => doTimes(4, (time, index) => {
 	if (animals[index]) {
-			log(animals[index])
-		}
+		log(animals[index])
+	}
 })
 
 const animals = ['Ape', 'Zebra', 'Lion', 'Sloth', 'Snake', 'Lizard']
@@ -56,7 +56,7 @@ listUpToFourAnimals(animals)
 #### Constructed
 ```javascript
 // Third argument being true, means it should not run directly, but instead return a new function
-const threeApples = doTimes(2, () => log('🍎'), true)
+const threeApples = doTimes(3, () => log('🍎'), true)
 
 threeApples()
 //=> 🍎

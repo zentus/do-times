@@ -1,5 +1,4 @@
 # do-times
-### **Do something n times**
 The speed of a `for` loop, but with nicer syntax.
 
 ## Usage
@@ -21,20 +20,6 @@ doTimes(5, (_, index) => console.log(index))
 //=> 2
 //=> 3
 //=> 4
-```
-
-#### Return a function
-do-times is immediately invoked by default, and returns `undefined`. If you pass in `false` as the third argument, it will return a function instead.
-
-```javascript
-const printApple = () => console.log('🍎')
-
-const printThreeApples = doTimes(3, printApple, false)
-
-printThreeApples()
-//=> 🍎
-//=> 🍎
-//=> 🍎
 ```
 
 ## License
